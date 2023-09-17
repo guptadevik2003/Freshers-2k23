@@ -1,14 +1,14 @@
 async function onScanSuccess(decodedText, decodedResult){
-    console.log(`Code Mathched`)
+    window.alert(decodedText)
 }
 
 async function onScanFailure(error){
-  console.log(error);
+    console.log(error);
 }
 
 let html5QrcodeScanner = new Html5QrcodeScanner(
     "reader",
-    { fps: 10, qrbox: { width: 250, height: 250 } },
+    { fps: 10, qrbox: { width: 800, height: 800 } },
     false
 )
-html5QrcodeScanner.render(onScanSuccess, onScanFaliure)
+html5QrcodeScanner.render(onScanSuccess, onScanFailure)
