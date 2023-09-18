@@ -12,6 +12,11 @@ router.get('/index', async (req, res) => {
     res.redirect('/')
 })
 
+// /committee
+router.get('/committee', async (req, res) => {
+    res.render('committee.ejs')
+})
+
 // /scanner
 router.get('/scanner', async (req, res) => {
     res.render('scanner.ejs')

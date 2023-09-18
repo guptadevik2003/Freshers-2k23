@@ -6,27 +6,54 @@
     <title>Document</title>
 </head>
 <body>
-    <h1 class="title">Shubharambh</h1>
-    <div class="imgContainer">
-        <h3>Suroju Akshay Kumar</h3>
-        <img height="200" width="200" src="https://upload.wikimedia.org/wikipedia/commons/d/d0/QR_code_for_mobile_English_Wikipedia.svg" alt="">
+    <div class="container">
+        <h1 class="title">SHUBHARAMBH</h1>
+        <div class="subContainer">
+            <div class="subImgContainer">
+                <div class="imgContainer">
+                    <img height="200" width="200" src="https://upload.wikimedia.org/wikipedia/commons/d/d0/QR_code_for_mobile_English_Wikipedia.svg" alt="">
+                </div>
+            </div>
+        </div>
+        <h3 class="name">DEVIK GUPTA</h3>
     </div>
 
     <style>
+        @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800;900&display=swap');
         body{
-            background-image: linear-gradient(to top left, black, red);
+            margin: 0;
+            padding: 0;
+            font-family: 'Poppins', sans-serif;
+            background: linear-gradient(to top, red, black);
             background-repeat: no-repeat;
             background-attachment: fixed;
             background-size: cover;
-            height: 80vh;
-            width: 100vw;
+            height: 100%;
+            overflow: hidden;
+        }
+        .container{
+            background: url('/assets/qr-bg.png');
+            background-repeat: no-repeat;
+            background-size: cover;
+            width: 100%;
+            height: 100vh;
             display: flex;
-            flex-direction: column;
             justify-content: center;
             align-items: center;
+            flex-direction: column;
         }
         img{
             border: 2px solid black;
+            /* background-color: green; */
+        }
+        .subContainer{
+            border: 4px solid white;
+            padding: 14px;
+            margin-top: 65px;
+        }
+        .subImgContainer{
+            border: 4px solid red;
+            padding: 14px;
         }
         .imgContainer{
             display: flex;
@@ -34,13 +61,22 @@
             justify-content: center;
             align-items: center;
             background-color: white;
-            height: 300px;
+            height: 240px;
             width: 240px;
-            border: 2px solid black;
         }
         .title{
-            color: gold;
+            color: white;
+            font-weight: bold;
+            font-size: 45px;
+        }
+        .name{
+            color: white;
+            font-weight: 600;
+            font-size: 30px;
+            margin-bottom: 123px;
         }
     </style>
+    <script>
+    </script>
 </body>
 </html>
