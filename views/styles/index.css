@@ -1,0 +1,116 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+*{
+    font-family: 'Poppins', sans-serif;
+    color: white;
+}
+
+body{
+    background-color: black !important;
+}
+
+.imgBackground{
+    background-image: url('/assets/header-bg.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+/* Navbar Section Style For All Pages */
+
+#active-tab{
+    color: var(--text-high) !important;
+}
+
+.navbar_section{
+    top: 0px;
+    width: 100vw;
+}
+
+.navbar_section .navbar-brand{
+    font-size: 32px;
+    font-weight: 600;
+    padding: 0;
+}
+
+.navbar_section .navbar-brand span{
+    color: red;
+}
+
+.navbar_section .navbar-toggler{
+    font-size: 25px;
+    box-shadow: none !important;
+    border: none;
+}
+
+.navbar_section .navbar-toggler .fa-times{
+    font-size: 29px;
+    display: none;
+}
+
+.navbar_section .navbar-nav li a{
+    color: white !important;
+    font-size: 16px;
+    font-weight: 600;
+    margin: 2px 0px 0px 6px;
+    text-decoration: none;
+    transition: 0.5s ease;
+}
+.navbar_section .navbar-nav li a:hover{
+    color: var(--text-high) !important;
+    background: none;
+}
+
+.navbar_section .navbar-nav li .dropdown-toggle:focus{
+    color: var(--text-high) !important;
+}
+
+.navbar_section .navbar-nav li .dropdown-menu{
+    background: var(--background-color) !important;
+    border: none;
+    text-align: center;
+}
+
+.navbar_section .navbar-nav li .dropdown-menu .dropdown-item{
+    margin: 0px 0px 8px 0px;
+}
+
+.navbar_section .navbar-nav{
+    background-color: white;
+    margin-top: 10px;
+}
+
+.navbar_section .navbar-nav a{
+    text-align: center;
+}
+
+/* Hero Section */
+
+.hero_section{
+    height: calc(95vh - 64px);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.hero_section h1{
+    font-size: 45px;
+    font-weight: 600;
+}
+
+.hero_section p{
+    font-size: 17px;
+    font-weight: 500;
+}
+
+/* Footer Section For All Pages */
+
+.footer_section{
+    width: 100%;
+    text-align: center;
+    color: grey;
+    font-weight: 600;
+    font-size: 16px;
+    padding-top: 20px;
+}
