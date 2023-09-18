@@ -1,6 +1,11 @@
 const express = require('express')
 const router = express.Router()
 
+// favicon.ico
+router.get('/favicon.ico', async (req, res) => {
+    res.sendFile(`${process.cwd()}/views/assets/favicon.ico`)
+})
+
 // /
 router.get('/', async (req, res) => {
     res.render('index.ejs')
