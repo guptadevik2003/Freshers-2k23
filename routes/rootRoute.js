@@ -1,6 +1,9 @@
 const express = require('express')
 const router = express.Router()
 
+// Custom Modules
+const CommitteeData = require('../otherFunctions/CommitteeData')
+
 // favicon.ico
 router.get('/favicon.ico', async (req, res) => {
     res.sendFile(`${process.cwd()}/views/assets/favicon.ico`)
@@ -19,7 +22,7 @@ router.get('/index', async (req, res) => {
 
 // /committee
 router.get('/committee', async (req, res) => {
-    res.render('committee.ejs')
+    res.render('committee.ejs', { data: CommitteeData })
 })
 
 // /scanner

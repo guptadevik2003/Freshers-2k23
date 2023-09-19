@@ -86,6 +86,7 @@ body{
 }
 
 .hero_section .member_container .memberImage{
+    object-fit: cover;
     border: 3px solid rgb(225,20,60);
     border-top-left-radius: 20%;
     border-bottom-right-radius: 20%;
