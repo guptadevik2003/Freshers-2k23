@@ -1,0 +1,125 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+*{
+    font-family: 'Poppins', sans-serif;
+    color: white;
+}
+
+body{
+    background-color: black !important;
+    background-image: linear-gradient(to right, black, rgba(255,0,0,0.3));
+}
+
+/* Navbar Section Style For All Pages */
+
+#active-tab{
+    color: red !important;
+}
+
+.navbar_section{
+    top: 0px;
+    width: 100vw;
+}
+
+.navbar_section .navbar-brand{
+    font-size: 32px;
+    font-weight: 600;
+    padding: 0;
+}
+
+.navbar_section .navbar-brand span{
+    color: red;
+}
+
+.navbar_section .navbar-toggler{
+    font-size: 25px;
+    box-shadow: none !important;
+    border: none;
+}
+
+.navbar_section .navbar-toggler .fa-times{
+    font-size: 29px;
+    display: none;
+}
+
+.navbar_section .navbar-nav li a{
+    color: black !important;
+    font-size: 16px;
+    font-weight: 600;
+    margin: 2px 0px 0px 6px;
+    text-decoration: none;
+    transition: 0.5s ease;
+}
+.navbar_section .navbar-nav li a:hover{
+    color: red !important;
+    background: none;
+}
+
+.navbar_section .navbar-nav{
+    background-color: white;
+    margin-top: 10px;
+}
+
+.navbar_section .navbar-nav a{
+    text-align: center;
+}
+
+/* Hero Section */
+.hero_section{
+    min-height: 100vh;
+}
+
+.hero_section .committee_container{
+    text-align: center;
+    margin-top: 30px;
+}
+
+.hero_section .horizontal_container{
+    margin: 30px 0px;
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.hero_section .member_container{
+    text-align: center;
+}
+
+.hero_section .member_container .memberImage{
+    border: 3px solid rgb(225,20,60);
+    border-top-left-radius: 20%;
+    border-bottom-right-radius: 20%;
+    margin: 0px 16px 10px 16px;
+    height: 160px;
+    width: 160px;
+}
+
+.hero_section .member_container .memberName{
+    font-size: 16px;
+}
+
+/* Footer Section */
+
+.footer_section{
+    width: 100%;
+    text-align: center;
+    color: grey;
+    font-weight: 600;
+    font-size: 16px;
+    padding-top: 20px;
+}
+
+.footer_section .footerText span{
+    color: red !important;
+}
+
+.footer_section .footerDisc{
+    color: #666666 !important;
+    font-weight: 300;
+    margin-bottom: 20px;
+}
+
+.footer_section .footerDisc a{
+    color: rgba(255,0,0,0.8) !important;
+    text-decoration: none;
+}
