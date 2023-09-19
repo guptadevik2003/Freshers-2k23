@@ -105,6 +105,7 @@ body{
 
 .sectionTitle{
     font-size: 40px;
+    padding-bottom: 40px;
 }
 
 .sectionTitle span{
@@ -112,13 +113,26 @@ body{
     font-size: 20px !important;
 }
 
+.about_section img{
+    margin-bottom: 60px;
+}
+
+.about_section .subTitle{
+    font-size: 30px !important;
+    margin-bottom: 20px;
+}
+
 .about_section .subTitle span{
     color: red !important;
 }
 
-.about_section img{
-    margin-bottom: 40px;
+
+.about_section .textField{
+    font-size: 16px;
+    text-align: justify;
+    padding: 0px 5px;
 }
+
 
 /* Committee Section */
 
@@ -136,7 +150,8 @@ body{
 }
 
 .committee_section .sectionTitle{
-    padding-bottom: 40px;
+    margin-top: 20px;
+    padding-bottom: 20px;
 }
 
 .committee_section i{
@@ -153,7 +168,12 @@ body{
     align-items: center;
     flex-direction: column;
     text-align: center;
-    padding: 40px 0px;
+    padding: 0px 0px 40px 0px;
+    margin-top: 40px;
+}
+
+.contact_section .sectionTitle{
+    padding-bottom: 0px;
 }
 
 .contact_section .input-field{
@@ -199,7 +219,7 @@ body{
 
 .contact_section .submitBtn{
     margin-top: 35px;
-    margin-bottom: 80px;
+    margin-bottom: 100px;
 }
 
 .contact_section .submitBtn input{

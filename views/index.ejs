@@ -75,7 +75,7 @@
         <h1 class="sectionTitle"><span>ABOUT</span><br>SHUBHARAMBH</h1>
         <img class="" src="/assets/poster.png" height="600px" width="360px">
         <h2 class="subTitle">Welcome Freshers<span>!!!</span></h2>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsa pariatur eius dignissimos repudiandae corrupti fugiat quas provident, veritatis odit aspernatur nam quae beatae ratione consequuntur natus. Eius expedita ab soluta! Lorem ipsum, dolor sit amet consectetur adipisicing elit. Optio, nesciunt voluptas sequi quibusdam soluta illum earum et excepturi iusto, accusantium pariatur doloremque ea! Est nihil molestiae ab, commodi vitae laborum.</p>
+        <p class="textField">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsa pariatur eius dignissimos repudiandae corrupti fugiat quas provident, veritatis odit aspernatur nam quae beatae ratione consequuntur natus. Eius expedita ab soluta! Lorem ipsum, dolor sit amet consectetur adipisicing elit. Optio, nesciunt voluptas sequi quibusdam soluta illum earum et excepturi iusto, accusantium pariatur doloremque ea! Est nihil molestiae ab, commodi vitae laborum.</p>
     </div>
 
     <!-- Committee Section -->
@@ -151,7 +151,7 @@
     <!-- Contact Section -->
     <div id="contact" class="contact_section container">
         <h1 class="sectionTitle"><span>GET A</span><br>HOLD OF US</h1>
-        <form action="/api/contact" method="post">
+        <form class="contactForm" id="contactForm">
             <!-- Name Field -->
             <div class="input-field">
                 <input type="text" name="name" id="name" placeholder="NAME" class="input" required>
@@ -169,7 +169,7 @@
             </div>
             <!-- Submit Button -->
             <div class="input-field submitBtn">
-                <input type="submit" value="Voilà">
+                <input id="submit" type="submit" value="Voilà">
             </div>
         </form>
         <!-- my details -->
@@ -192,20 +192,7 @@
 
 
     <!-- Scripts -->
-    <script>
-        async function showMenu() {
-            var showIcon = document.getElementById('showMenu')
-            var hideIcon = document.getElementById('hideMenu')
-            showIcon.style.display = 'none'
-            hideIcon.style.display = 'block'
-        }
-        async function hideMenu() {
-            var showIcon = document.getElementById('showMenu')
-            var hideIcon = document.getElementById('hideMenu')
-            showIcon.style.display = 'block'
-            hideIcon.style.display = 'none'
-        }
-    </script>
+    <script src="/javascripts/index.js" defer></script>
 
 </body>
 </html>
