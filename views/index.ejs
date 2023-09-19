@@ -64,79 +64,70 @@
         
         <!-- Hero Section -->
         <div class="hero_section container">
-            <!-- <div class="main_container"> -->
-                <h1>Shubharambh</h1>
-                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit.</p>
-                <!-- </div> -->
-            </div>
+            <h1>SHUBHARAMBH</h1>
+            <p class="subTitle">Lorem ipsum dolor sit amet consectetur, adipisicing elit.</p>
+        </div>
 
     </div>
 
     <!-- About Section -->
     <div class="about_section container" id="about">
         <h1 class="sectionTitle"><span>ABOUT</span><br>SHUBHARAMBH</h1>
-        <img class="" src="/assets/poster.jpg" height="400px" width="300px">
-        <h2>Welcome Freshers!!!</h2>
+        <img class="" src="/assets/poster.png" height="600px" width="360px">
+        <h2 class="subTitle">Welcome Freshers<span>!!!</span></h2>
         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsa pariatur eius dignissimos repudiandae corrupti fugiat quas provident, veritatis odit aspernatur nam quae beatae ratione consequuntur natus. Eius expedita ab soluta! Lorem ipsum, dolor sit amet consectetur adipisicing elit. Optio, nesciunt voluptas sequi quibusdam soluta illum earum et excepturi iusto, accusantium pariatur doloremque ea! Est nihil molestiae ab, commodi vitae laborum.</p>
     </div>
 
     <!-- Committee Section -->
     <div class="committee_section container">
         <h1 class="sectionTitle"><span>OUR</span><br>COMMITTEE</h1>
-        <!-- <div> -->
-            <!-- <i class="fad fa-glass-citrus"></i> -->
- <!-- - <i class="fad fa-gifts"></i>
- - <i class="fad fa-user-music"></i>
- - <i class="fad fa-phone-laptop"></i>
- - <i class="fad fa-rupee-sign"></i> -->
 
-        <!-- </div> -->
         <div>
             <div>
                 <i class="fad fa-phone-laptop" style="--fa-primary-color: red;"></i>
-                <h4>Technical Committee</h4>
+                <h4>Technical<br>Committee</h4>
             </div>
             <p>Info about our technical committee</p>
         </div>
         <div>
             <div>
                 <i class="fad fa-microphone-alt" style="--fa-primary-color: red;"></i>
-                <h4>Cultural Committee</h4>
+                <h4>Cultural<br>Committee</h4>
             </div>
             <p>Info about our technical committee</p>
         </div>
         <div>
             <div>
                 <i class="fad fa-rupee-sign" style="--fa-primary-color: #666666; --fa-secondary-color: red; --fa-secondary-opacity: 1;"></i>
-                <h4>Finance Committee</h4>
+                <h4>Finance<br>Committee</h4>
             </div>
             <p>Info about our technical committee</p>
         </div>
         <div>
             <div>
                 <i class="fad fa-gifts" style="--fa-primary-color: red;"></i>
-                <h4>Momento Committee</h4>
+                <h4>Momento<br>Committee</h4>
             </div>
             <p>Info about our technical committee</p>
         </div>
         <div>
             <div>
                 <i class="fad fa-users-crown" style="--fa-primary-color: red;"></i>
-                <h4>Freshers Committee</h4>
+                <h4>Freshers<br>Committee</h4>
             </div>
             <p>Info about our technical committee</p>
         </div>
         <div>
             <div>
                 <i class="fad fa-user-shield" style="--fa-primary-color: #666666; --fa-secondary-color: red; --fa-secondary-opacity: 1;"></i>
-                <h4>Discipline Committee</h4>
+                <h4>Discipline<br>Committee</h4>
             </div>
             <p>Info about our technical committee</p>
         </div>
         <div>
             <div>
                 <i class="fad fa-glass-citrus" style="--fa-primary-color: red;"></i>
-                <h4>Refreshment Committee</h4>
+                <h4>Refreshment<br>Committee</h4>
             </div>
             <p>Info about our technical committee</p>
         </div>
@@ -145,17 +136,42 @@
     <!-- Contact Section -->
     <div id="contact" class="contact_section container">
         <h1 class="sectionTitle"><span>GET A</span><br>HOLD OF US</h1>
-        <!-- form -->
+        <form action="/api/contact" method="post">
+            <!-- Name Field -->
+            <div class="input-field">
+                <input type="text" name="name" id="name" placeholder="NAME" class="input" required>
+                <i class="fad fa-user" style="--fa-primary-color: red;"></i>
+            </div>
+            <!-- Email Field -->
+            <div class="input-field">
+                <input type="email" name="email" id="email" placeholder="EMAIL" class="input" required>
+                <i class="fad fa-at" style="--fa-primary-color: red;"></i>
+            </div>
+            <!-- Message Field -->
+            <div class="input-field">
+                <textarea name="message" id="message" cols="30" rows="10" placeholder="MESSAGE" class="input" required></textarea>
+                <i class="fad fa-comments-alt" style="--fa-primary-color: red;"></i>
+            </div>
+            <!-- Submit Button -->
+            <div class="input-field submitBtn">
+                <input type="submit" value="Voilà">
+            </div>
+        </form>
         <!-- my details -->
-        <p>guptadevik2003@gmail.com</p>
-        <p>+91 70173-85123</p>
-        <p>address geu</p>
+        <div>
+            <h3 class="contactTitle">EMAIL</h3>
+            <h2 class="contactInfo" onclick="window.open('mailto:guptadevik2003@gmail.com','_blank')">guptadevik2003@gmail.com</h2>
+            <h3 class="contactTitle">MOBILE</h3>
+            <h2 class="contactInfo">+91 70173-85123</h2>
+            <h3 class="contactTitle">ADDRESS</h3>
+            <h2 class="contactInfo">Department of CSE<br>Graphic Era Deemed to be University</h2>
+        </div>
     </div>
 
     <!-- Footer Section -->
     <div class="footer_section container">
-        <p>shubharambh</p>
-        <p>Copyright © 2023 | All rights reserved | This site belongs to <a href="https://geu.ac.in">Graphic Era University</a></p>
+        <p class="footerText">Freshers 2<span>K</span>23</p>
+        <p class="footerDisc">Copyright © 2023 | All rights reserved | This site belongs to <a href="https://geu.ac.in">Graphic Era University</a></p>
     </div>
 
 
