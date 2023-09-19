@@ -19,7 +19,7 @@ body{
 /* Navbar Section Style For All Pages */
 
 #active-tab{
-    color: var(--text-high) !important;
+    color: red !important;
 }
 
 .navbar_section{
@@ -49,7 +49,7 @@ body{
 }
 
 .navbar_section .navbar-nav li a{
-    color: white !important;
+    color: black !important;
     font-size: 16px;
     font-weight: 600;
     margin: 2px 0px 0px 6px;
@@ -57,22 +57,8 @@ body{
     transition: 0.5s ease;
 }
 .navbar_section .navbar-nav li a:hover{
-    color: var(--text-high) !important;
+    color: red !important;
     background: none;
-}
-
-.navbar_section .navbar-nav li .dropdown-toggle:focus{
-    color: var(--text-high) !important;
-}
-
-.navbar_section .navbar-nav li .dropdown-menu{
-    background: var(--background-color) !important;
-    border: none;
-    text-align: center;
-}
-
-.navbar_section .navbar-nav li .dropdown-menu .dropdown-item{
-    margin: 0px 0px 8px 0px;
 }
 
 .navbar_section .navbar-nav{
@@ -87,7 +73,7 @@ body{
 /* Hero Section */
 
 .hero_section{
-    height: calc(95vh - 64px);
+    height: calc(100vh - 64px);
     display: flex;
     justify-content: center;
     align-items: center;
@@ -104,7 +90,50 @@ body{
     font-weight: 500;
 }
 
-/* Footer Section For All Pages */
+/* About Section */
+
+.about_section{
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+}
+
+.sectionTitle{
+    font-size: 40px;
+}
+
+.sectionTitle span{
+    color: red !important;
+    font-size: 20px !important;
+}
+
+/* Committee Section */
+
+.committee_section{
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+}
+
+.committee_section h4{
+    color: red !important;
+}
+
+/* Contact Section */
+
+.contact_section{
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+}
+
+/* Footer Section */
 
 .footer_section{
     width: 100%;
