@@ -19,6 +19,22 @@
                 {
                     "name": "Navalpreet Kaur",
                     "image": "/assets/committee/Core/Navalpreet Kaur.jpg"
+                },
+                {
+                    "name": "Astha Choudhary",
+                    "image": "/assets/committee/Core/Astha Choudhary.jpg"
+                },
+                 {
+                    "name": "Pragya Karnwal",
+                    "image": "/assets/committee/Core/Pragya Karnwal.jpg"
+                },
+                 {
+                    "name": "Saurabh Mehta",
+                    "image": "/assets/committee/Core/Vedansh Mehta.jpg"
+                },
+                 {
+                    "name": "Vedansh Goel",
+                    "image": "/assets/committee/Core/Vedansh Goel.jpg"
                 }
             ]
         },
@@ -32,12 +48,33 @@
             "members": [
                 {
                     "name": "Devik Gupta",
-                    "image": "/assets/committee/Core/Devik Gupta.jpg"
+                    "image": "/assets/committee/Operations/Devik Gupta.jpg"
                 },
                 {
                     "name": "Kratika Bhardwaj",
-                    "image": "/assets/committee/Core/Kratika Bhardwaj.jpg"
-                }
+                    "image": "/assets/committee/Operations/Kratika Bhardwaj.jpg"
+                },
+                   
+                 {
+                    "name": "Nishant Chaudhary",
+                    "image": "/assets/committee/Operations/Nishant Chaudhary.jpg"
+                },
+                 {
+                    "name": "Uday Chaudhary",
+                    "image": "/assets/committee/Operations/Uday Chaudhary.jpg"
+                },
+                 {
+                    "name": "Aarin Ajay Pandita",
+                    "image": "/assets/committee/Operations/Aarin Ajay Pandita.jpg"
+                },
+                 {
+                    "name": "Pratham Singh",
+                    "image": "/assets/committee/Operations/Pratham Singh.jpg"
+                },
+                 {
+                    "name": "Somil Negi",
+                    "image": "/assets/committee/Operations/Somil Negi.jpg"
+                }   
             ]
         },
         {
@@ -48,9 +85,109 @@
                 "image": ""
             },
             "members": [
+                    {
+                    "name": "Saumya Mishra",
+                    "image": "/assets/committee/Cultural/Saumya Mishra.jpg"
+                },
+                {
+                    "name": "Parkhi Sharma",
+                    "image": "/assets/committee/Cultural/Parkhi Sharma.jpg"
+                },
+                {
+                    "name": "Dhawani Maltonia",
+                    "image": "/assets/committee/Cultural/Dhawani Maltonia.jpg"
+                },
+                {
+                    "name": "Mahek Kakadiya",
+                    "image": "/assets/committee/Cultural/Mahek Kakadiya.jpg"
+                },
+                {
+                    "name": "Mohd Azim",
+                    "image": "/assets/committee/Cultural/Mohd Azim.jpg"
+                },
+                {
+                    "name": "Nikita Kandpal",
+                    "image": "/assets/committee/Cultural/Nikita Kandpal.jpg"
+                },
+                {
+                    "name": "Parikshit",
+                    "image": "/assets/committee/Cultural/Parikshit.jpg"
+                },
                 {
                     "name": "",
-                    "image": "/assets/committee/"
+                    "image": "/assets/committee/Cultural/.jpg"
+                },
+                     {
+                    "name": "Prateek Jain",
+                    "image": "/assets/committee/Cultural/Prateek Jain.jpg"
+                },
+                     {
+                    "name": "Prithviraj Chauhan",
+                    "image": "/assets/committee/Cultural/Prithviraj Chauhan.jpg"
+                },
+                {
+                    "name": "Ritika",
+                    "image": "/assets/committee/Cultural/Ritika.jpg"
+                },
+                {
+                    "name": "Riya Chand",
+                    "image": "/assets/committee/Cultural/Riya Chand.jpg"
+                },
+                {
+                    "name": "Shrishti Singh",
+                    "image": "/assets/committee/Cultural/Shrishti Singh.jpg"
+                },
+                {
+                    "name": "Saransh Sharma",
+                    "image": "/assets/committee/Cultural/Saransh Sharma.jpg"
+                },
+                     {
+                    "name": "Shreya Yadav",
+                    "image": "/assets/committee/Cultural/Shreya Yadav.jpg"
+                },
+                     {
+                    "name": "Simran Sachdeva",
+                    "image": "/assets/committee/Cultural/Simran Sachdeva.jpg"
+                },
+                     {
+                    "name": "Aakriti Solanki",
+                    "image": "/assets/committee/Cultural/Aakriti Solanki.jpg"
+                },
+                     {
+                    "name": "Anshul Sati",
+                    "image": "/assets/committee/Cultural/Anshul Sati.jpg"
+                },
+                     {
+                    "name": "Abhishek Pal",
+                    "image": "/assets/committee/Cultural/Abhishek Pal.jpg"
+                },
+                     {
+                    "name": "Aditi Joshi",
+                    "image": "/assets/committee/Cultural/Aditi Joshi.jpg"
+                },
+                     {
+                    "name": "Akriti Uniyal",
+                    "image": "/assets/committee/Cultural/Akriti Uniyal.jpg"
+                },
+                {
+                    "name": "Bhaskar Singh",
+                    "image": "/assets/committee/Cultural/Bhaskar Singh.jpg"
+                },
+                 {
+                    "name": "Charvi Pandey",
+                    "image": "/assets/committee/Cultural/Charvi Pandey.jpg"
+                },
+                 {
+                    "name": "Garvita Arora",
+                    "image": "/assets/committee/Cultural/Garvita Arora.jpg"
+                },
+                 {
+                    "name": "Harshita Puri",
+                    "image": "/assets/committee/Cultural/Harshita Puri.jpg"
+                },
+                 {
+                    "name": "Krati Singh",
+                    "image": "/assets/committee/Cultural/Krati Singh.jpg"
                 }
             ]
         },
@@ -63,8 +200,40 @@
             },
             "members": [
                 {
-                    "name": "",
-                    "image": "/assets/committee/"
+                    "name": "Ayush",
+                    "image": "/assets/committee/Finance/Ayush.jpg"
+                },
+                {
+                    "name": "Bhavya Jain",
+                    "image": "/assets/committee/Finance/Bhavya Jain.jpg"
+                },
+                {
+                    "name": "Dilpreet kaur syali",
+                    "image": "/assets/committee/Finance/Dilpreet kaur syali.jpg"
+                },
+                {
+                    "name": "Khwaish",
+                    "image": "/assets/committee/Finance/Khwaish.jpg"
+                },
+                {
+                    "name": "Manas Semwal",
+                    "image": "/assets/committee/Finance/Manas Semwal.jpg"
+                },
+                {
+                    "name": "Ninad Gangodkar",
+                    "image": "/assets/committee/Finance/Ninad Gangodkar.jpg"
+                },
+                {
+                    "name": "Pranav Joshi",
+                    "image": "/assets/committee/Finance/Pranav Joshi.jpg"
+                },
+                {
+                    "name": "Pranav Joshi",
+                    "image": "/assets/committee/Finance/Pranav Joshi.jpg"
+                },
+                {
+                    "name": "Tvesa Gupta",
+                    "image": "/assets/committee/Finance/Tvesa Gupt.jpg"
                 }
             ]
         },
@@ -77,8 +246,36 @@
             },
             "members": [
                 {
-                    "name": "",
-                    "image": "/assets/committee/"
+                    "name": "Suroju Akshay Kumar",
+                    "image": "/assets/committee/Momento/Suroju Akshay Kumar.jpg"
+                },
+                {
+                    "name": "Devansh Mishra",
+                    "image": "/assets/committee/Momento/Devansh Mishra.jpg"
+                },
+                {
+                    "name": "Kritarth Saxena",
+                    "image": "/assets/committee/Momento/Kritarth Saxena.jpg"
+                },
+                {
+                    "name": "Anushka Panwar",
+                    "image": "/assets/committee/Momento/Anushka Panwar.jpg"
+                },
+                {
+                    "name": "Kanishka Chauhan",
+                    "image": "/assets/committee/Momento/Kanishka Chauhan.jpg"
+                },
+                {
+                    "name": "Anishka Sissodiya",
+                    "image": "/assets/committee/Momento/Anishka Sissodiya.jpg"
+                },
+                {
+                    "name": "Samriddhi Lingwal",
+                    "image": "/assets/committee/Momento/Samriddhi Lingwal.jpg"
+                },
+                {
+                    "name": "Harshita Bhatt",
+                    "image": "/assets/committee/Momento/Harshita Bhatt.jpg"
                 }
             ]
         },
@@ -91,8 +288,60 @@
             },
             "members": [
                 {
-                    "name": "",
-                    "image": "/assets/committee/"
+                    "name": "Shaurya Tomar",
+                    "image": "/assets/committee/Freshers/Shaurya Tomar.jpg"
+                },
+                {
+                    "name": "Suhani Ghansyala",
+                    "image": "/assets/committee/Freshers/Suhani Ghansyala.jpg"
+                },
+                {
+                    "name": "Nivesh Jain",
+                    "image": "/assets/committee/Freshers/Nivesh Jain.jpg"
+                },
+                {
+                    "name": "Nupur Choudhary",
+                    "image": "/assets/committee/Freshers/Nupur Choudhary.jpg"
+                },
+                {
+                    "name": "Abhijeet Hellan",
+                    "image": "/assets/committee/Freshers/Abhijeet Hellan.jpg"
+                },
+                {
+                    "name": "Aman kumar",
+                    "image": "/assets/committee/Freshers/Aman kumar.jpg"
+                },
+                {
+                    "name": "Yatharth Joshi",
+                    "image": "/assets/committee/Freshers/Yatharth Joshi.jpg"
+                },
+                {
+                    "name": "Himanshu Vashishtha",
+                    "image": "/assets/committee/Freshers/Himanshu Vashishtha.jpg"
+                },
+                {
+                    "name": "Sanyam Rawat",
+                    "image": "/assets/committee/Freshers/Sanyam Rawat.jpg"
+                },
+                {
+                    "name": "Nimish",
+                    "image": "/assets/committee/Freshers/Nimish.jpg"
+                },
+                {
+                    "name": "Rachit Sharma",
+                    "image": "/assets/committee/Freshers/Rachit Sharma.jpg"
+                },
+                {
+                    "name": "Shakshat Jain",
+                    "image": "/assets/committee/Freshers/Shakshat Jain.jpg"
+                },
+                {
+                    "name": "Parjanya Rawat",
+                    "image": "/assets/committee/Freshers/Parjanya Rawat.jpg"
+                },
+                {
+                    "name": "Samarth Shukla",
+                    "image": "/assets/committee/Freshers/Samarth Shukla.jpg"
                 }
             ]
         },
@@ -105,8 +354,72 @@
             },
             "members": [
                 {
-                    "name": "",
-                    "image": "/assets/committee/"
+                    "name": "Deepika Rajput",
+                    "image": "/assets/committee/Decoration/Deepika Rajput.jpg"
+                },
+                {
+                    "name": "Shruti S Khandelwal",
+                    "image": "/assets/committee/Decoration/Shruti S Khandelwal.jpg"
+                },
+                {
+                    "name": "Suryansh Yadav",
+                    "image": "/assets/committee/Decoration/Suryansh Yadav.jpg"
+                },
+                {
+                    "name": "Vivek Kumar",
+                    "image": "/assets/committee/Decoration/Vivek Kumar.jpg"
+                },
+                {
+                    "name": "Abul Hasan Zaidi",
+                    "image": "/assets/committee/Decoration/Abul Hasan Zaidi.jpg"
+                },
+                {
+                    "name": "Ankit",
+                    "image": "/assets/committee/Decoration/Ankit.jpg"
+                },
+                {
+                    "name": "Ashish Tyagi",
+                    "image": "/assets/committee/Decoration/Ashish Tyagi.jpg"
+                },
+                {
+                    "name": "Ayush Rawat",
+                    "image": "/assets/committee/Decoration/Ayush Rawat.jpg"
+                },
+                {
+                    "name": "Gargi Gusain",
+                    "image": "/assets/committee/Decoration/Gargi Gusain.jpg"
+                },
+                {
+                    "name": "Himakshi Bhakuni",
+                    "image": "/assets/committee/Decoration/Himakshi Bhakuni.jpg"
+                },
+                {
+                    "name": "Khushi",
+                    "image": "/assets/committee/Decoration/Khushi.jpg"
+                },
+                {
+                    "name": "Kritika Agarwal",
+                    "image": "/assets/committee/Decoration/Kritika Agarwal.jpg"
+                },
+                {
+                    "name": "Anushka Rawat",
+                    "image": "/assets/committee/Decoration/Anushka Rawat.jpg"
+                },
+                {
+                    "name": "Priyanshi Barmola",
+                    "image": "/assets/committee/Decoration/Priyanshi Barmola.jpg"
+                },
+                {
+                    "name": "Shashwat Mishra",
+                    "image": "/assets/committee/Decoration/Shashwat Mishra.jpg"
+                },
+                {
+                    "name": "Akshi Sharma",
+                    "image": "/assets/committee/Decoration/Akshi Sharma.jpg"
+                },
+                {
+                    "name": "Aniruddh singh",
+                    "image": "/assets/committee/Decoration/Aniruddh singh.jpg"
                 }
             ]
         },
@@ -119,8 +432,61 @@
             },
             "members": [
                 {
-                    "name": "",
-                    "image": "/assets/committee/"
+                    "name": "Ananya Gupta",
+                    "image": "/assets/committee/Discipline/Ananya Gupta.jpg"
+                },
+                {
+                    "name": "B Sai Manvith",
+                    "image": "/assets/committee/Discipline/B Sai Manvith.jpg"
+                },
+                {
+                    "name": "Shikhar Rai",
+                    "image": "/assets/committee/Discipline/Shikhar Rai.jpg"
+                },
+                {
+                    "name": "Ankit Choudhary",
+                    "image": "/assets/committee/Discipline/Ankit Choudhary.jpg"
+                },
+                {
+                    "name": "Rohit Kumar",
+                    "image": "/assets/committee/Discipline/Rohit Kumar.jpg"
+                },
+                {
+                    "name": "Jaahnvi Sharma",
+                    "image": "/assets/committee/Discipline/Jaahnvi Sharma.jpg"
+                },
+                {
+                    "name": "Daksh Yadav",
+                    "image": "/assets/committee/Discipline/Daksh Yadav.jpg"
+                },
+                {
+                    "name": "Shivansh Gaur",
+                    "image": "/assets/committee/Discipline/Shivansh Gaur.jpg"
+                },
+                {
+                    "name": "Shreyansh Aswal",
+                    "image": "/assets/committee/Discipline/Shreyansh Aswal.jpg"
+                },
+                {
+                    "name": "Saksham Chand",
+                    "image": "/assets/committee/Discipline/Saksham Chand.jpg"
+                },
+                {
+                    "name": "Parth Agwal",
+                    "image": "/assets/committee/Discipline/Parth Agwal.jpg"
+                },
+                {
+                    "name": "Naman Goel",
+                    "image": "/assets/committee/Discipline/Naman Goel.jpg"
+                },
+
+                {
+                    "name": "Mayank Baluni",
+                    "image": "/assets/committee/Discipline/Mayank Baluni.jpg"
+                },
+                {
+                    "name": "Kumar Garv",
+                    "image": "/assets/committee/Discipline/Kumar Garv.jpg"
                 }
             ]
         },
@@ -133,8 +499,88 @@
             },
             "members": [
                 {
-                    "name": "",
-                    "image": "/assets/committee/"
+                    "name": "Ayush Katariya",
+                    "image": "/assets/committee/Refreshment/Ayush Katariya.jpg"
+                },
+                {
+                    "name": "Ayush Rawat",
+                    "image": "/assets/committee/Refreshment/Ayush Rawat.jpg"
+                },
+                {
+                    "name": "Deeksha Tiwari",
+                    "image": "/assets/committee/Refreshment/Deeksha Tiwari.jpg"
+                },
+                {
+                    "name": "Harsh Kothari",
+                    "image": "/assets/committee/Refreshment/Harsh Kothari.jpg"
+                },
+                {
+                    "name": "Ishita",
+                    "image": "/assets/committee/Refreshment/Ishita.jpg"
+                },
+                {
+                    "name": "Kush Agarwal",
+                    "image": "/assets/committee/Refreshment/Kush Agarwal.jpg"
+                },
+                {
+                    "name": "Priyanshi",
+                    "image": "/assets/committee/Refreshment/Priyanshi.jpg"
+                },
+                {
+                    "name": "Ritika Bhatt",
+                    "image": "/assets/committee/Refreshment/Ritika Bhatt.jpg"
+                },
+                {
+                    "name": "Rohit Singh Rawat",
+                    "image": "/assets/committee/Refreshment/Rohit Singh Rawat.jpg"
+                },
+                {
+                    "name": "Satam Gupta",
+                    "image": "/assets/committee/Refreshment/Satam Gupta.jpg"
+                },
+                {
+                    "name": "Shashank Sharma",
+                    "image": "/assets/committee/Refreshment/Shashank Sharma.jpg"
+                },
+                {
+                    "name": "Sheetal Bhatt",
+                    "image": "/assets/committee/Refreshment/Sheetal Bhatt.jpg"
+                },
+                {
+                    "name": "Shraddha Shukla",
+                    "image": "/assets/committee/Refreshment/Shraddha Shukla.jpg"
+                },
+                {
+                    "name": "Vatshal Aggarwal",
+                    "image": "/assets/committee/Refreshment/Vatshal Aggarwal.jpg"
+                },
+                {
+                    "name": "Aakriti Solanki",
+                    "image": "/assets/committee/Refreshment/Aakriti Solanki.jpg"
+                },
+                {
+                    "name": "Abhinav Bhatia",
+                    "image": "/assets/committee/Refreshment/Abhinav Bhatia.jpg"
+                },
+                {
+                    "name": "Aditi Agarwal",
+                    "image": "/assets/committee/Refreshment/Aditi Agarwal.jpg"
+                },
+                {
+                    "name": "Aditya Kirsali",
+                    "image": "/assets/committee/Refreshment/Aditya Kirsali.jpg"
+                },
+                {
+                    "name": "Ananya Singh",
+                    "image": "/assets/committee/Refreshment/Ananya Singh.jpg"
+                },
+                {
+                    "name": "Anshul",
+                    "image": "/assets/committee/Refreshment/Anshul.jpg"
+                },
+                {
+                    "name": "Atishay Jain",
+                    "image": "/assets/committee/Refreshment/Atishay Jain.jpg"
                 }
             ]
         }
