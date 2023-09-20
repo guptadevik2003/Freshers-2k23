@@ -6,26 +6,14 @@ module.exports = ({ app, express }) => {
         mongoose.set('strictQuery', false)
         mongoose.Promise = global.Promise
 
-        if (process.env.BUILD_MODE === 'production') {
-            mongoose.connect(process.env.MONGODB_URI)
-        } else if (process.env.BUILD_MODE === 'development') {
-            mongoose.connect(process.env.MONGODB_URI_DEV)
-        }
+        mongoose.connect(process.env.MONGODB_URI)
 
         mongoose.connection.on('connected', async () => {
-            if (process.env.BUILD_MODE === 'production') {
-                console.log(`Connected to Production Database.`)
-            } else if (process.env.BUILD_MODE === 'development') {
-                console.log(`Connected to Development Database.`)
-            }
+            console.log(`Connected to Production Database.`)
         })
 
         mongoose.connection.on('disconnected', async () => {
-            if (process.env.BUILD_MODE === 'production') {
-                console.log(`Disconnected from Production Database.`)
-            } else if (process.env.BUILD_MODE === 'development') {
-                console.log(`Disconnected from Development Database.`)
-            }
+            console.log(`Disconnected from Production Database.`)
         })
 
         mongoose.connection.on('err', async (error) => {
