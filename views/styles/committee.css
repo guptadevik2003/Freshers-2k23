@@ -71,7 +71,17 @@ body{
 
 .hero_section .committee_container{
     text-align: center;
-    margin-top: 30px;
+    padding-top: 30px;
+    /* margin-top: 30px; */
+    margin-bottom: 100px !important;
+}
+
+.hero_section .committee_container h4{
+    margin-bottom: 50px;
+}
+
+.hero_section .committee_container span{
+    color: red;
 }
 
 .hero_section .horizontal_container{

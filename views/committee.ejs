@@ -67,7 +67,7 @@
             <div class="committee_container" id="<%= committee.name.toLowerCase() %>">
                 
                 <h1><%= committee.name.toUpperCase() %> COMMITTEE</h1>
-                <h4><%= committee.faculty.name %></h4>
+                <h4><span>Coordinator - </span><%= committee.faculty.name %></h4>
                 
                 <% let count = 0 %>
                 <% let members = committee.members %>

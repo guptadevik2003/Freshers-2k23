@@ -82,14 +82,14 @@ body{
 }
 
 .hero_section h1{
-    font-size: 45px;
+    font-size: 35px;
     font-weight: 600;
 }
 
 .hero_section p{
-    margin-top: 10px;
+    margin-top: 30px;
     font-size: 20px;
-    font-weight: 500;
+    font-weight: 400;
 }
 
 /* About Section */
@@ -117,9 +117,18 @@ body{
     margin-bottom: 60px;
 }
 
+.about_section .subTitleContainer{
+    padding-top: 40px;
+    padding-bottom: 40px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    text-align: center;
+    width: 100%;
+}
+
 .about_section .subTitle{
     font-size: 30px !important;
-    margin-bottom: 20px;
 }
 
 .about_section .subTitle span{
@@ -128,8 +137,8 @@ body{
 
 
 .about_section .textField{
-    font-size: 16px;
-    text-align: justify;
+    font-size: 14.5px;
+    text-align: left;
     padding: 0px 5px;
 }
 
