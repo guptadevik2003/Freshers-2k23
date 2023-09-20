@@ -154,6 +154,10 @@ body{
     padding-bottom: 20px;
 }
 
+.committee_section .committeeClick{
+    cursor: pointer;
+}
+
 .committee_section i{
     font-size: 40px;
     padding-top: 40px;
