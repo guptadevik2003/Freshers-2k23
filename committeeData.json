@@ -1,0 +1,196 @@
+{
+    "data": [
+        {
+            "name": "Core",
+            "fullname": "Core Committee",
+            "faculty": {
+                "name": "Mr. Yuvraj Joshi",
+                "image": ""
+            },
+            "members": [
+                {
+                    "name": "Devik Gupta",
+                    "image": "/assets/committee/Devik_Gupta.jpg"
+                },
+                {
+                    "name": "Navalpreet Kaur",
+                    "image": ""
+                },
+                {
+                    "name": "Kratika Bhardwaj",
+                    "image": "/assets/committee/Kratika_Bhardwaj.jpg"
+                },
+                {
+                    "name": "Pragya Karnwal",
+                    "image": ""
+                },
+                {
+                    "name": "Saurabh Mehta",
+                    "image": ""
+                },
+                {
+                    "name": "Astha Choudhary",
+                    "image": ""
+                },
+                {
+                    "name": "Vedansh Goel",
+                    "image": ""
+                }
+            ]
+        },
+        {
+            "name": "Operations",
+            "fullname": "Operations Committee",
+            "faculty": {
+                "name": "Mr. Yuvraj Joshi",
+                "image": ""
+            },
+            "members": [
+                {
+                    "name": "Devik Gupta",
+                    "image": "/assets/committee/Devik_Gupta.jpg"
+                },
+                {
+                    "name": "Navalpreet Kaur",
+                    "image": ""
+                },
+                {
+                    "name": "Kratika Bhardwaj",
+                    "image": "/assets/committee/Kratika_Bhardwaj.jpg"
+                },
+                {
+                    "name": "Uday Chaudhary",
+                    "image": "/assets/committee/Uday_Chaudhary.jpg"
+                },
+                {
+                    "name": "Nishant Chaudhary",
+                    "image": ""
+                },
+                {
+                    "name": "Pratham Singh",
+                    "image": "/assets/committee/"
+                },
+                {
+                    "name": "Aarin Pandita",
+                    "image": ""
+                },
+                {
+                    "name": "Somil Negi",
+                    "image": ""
+                }
+            ]
+        },
+        {
+            "name": "Cultural",
+            "fullname": "Cultural & Stage Committee",
+            "faculty": {
+                "name": "Dr. Suchi Bhadula",
+                "image": ""
+            },
+            "members": []
+        },
+        {
+            "name": "Finance",
+            "fullname": "Finance Committee",
+            "faculty": {
+                "name": "Dr. Mahesh Kumar",
+                "image": ""
+            },
+            "members": []
+        },
+        {
+            "name": "Momento",
+            "fullname": "Invitation / Momento / Prize Distribution Committee",
+            "faculty": {
+                "name": "Ms. Sarishma",
+                "image": ""
+            },
+            "members": [
+                {
+                    "name": "Devik Gupta",
+                    "image": "/assets/committee/Devik_Gupta.jpg"
+                },
+                {
+                    "name": "Kratika Bhardwaj",
+                    "image": "/assets/committee/Kratika_Bhardwaj.jpg"
+                },
+                {
+                    "name": "Devansh Mishra",
+                    "image": "/assets/committee/Devansh_Mishra.jpg"
+                },
+                {
+                    "name": "Suroju Akshay Kumar",
+                    "image": ""
+                },
+                {
+                    "name": "Kritarth Saxena",
+                    "image": "/assets/committee/Kritarth_Saxena.jpg"
+                },
+                {
+                    "name": "Anushka Panwar",
+                    "image": ""
+                },
+                {
+                    "name": "Anishka Sissodiya",
+                    "image": "/assets/committee/Anishka_Sissodiya.jpg"
+                },
+                {
+                    "name": "Kanishka Chauhan",
+                    "image": "/assets/committee/Kanishka_Chauhan.jpg"
+                },
+                {
+                    "name": "Harshita",
+                    "image": ""
+                },
+                {
+                    "name": "Harshita",
+                    "image": ""
+                },
+                {
+                    "name": "Harshita",
+                    "image": ""
+                },
+                {
+                    "name": "Samriddhi",
+                    "image": ""
+                }
+            ]
+        },
+        {
+            "name": "Freshers",
+            "fullname": "Mr & Ms Freshers Committee",
+            "faculty": {
+                "name": "Ms. Ruchira Rawat",
+                "image": ""
+            },
+            "members": []
+        },
+        {
+            "name": "Decoration",
+            "fullname": "Reception / Decoration Committee",
+            "faculty": {
+                "name": "Ms. Vishu Tyagi",
+                "image": ""
+            },
+            "members": []
+        },
+        {
+            "name": "Discipline",
+            "fullname": "Discipline Committee",
+            "faculty": {
+                "name": "Mr. Hemant Pokhariya",
+                "image": ""
+            },
+            "members": []
+        },
+        {
+            "name": "Refreshment",
+            "fullname": "Refreshment Committee",
+            "faculty": {
+                "name": "Mr. Hemant Pokhariya",
+                "image": ""
+            },
+            "members": []
+        }
+    ]
+}

@@ -11,7 +11,7 @@ for (file of functions) {
 // Init Functions
 express.appConfig()
 express.useRoutes()
-// express.mongooseLogin()
+express.mongooseLogin()
 
 // Listening to PORT
 const PORT = process.env.PORT
