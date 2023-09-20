@@ -47,12 +47,12 @@
             },
             "members": [
                 {
-                    "name": "Devik Gupta",
-                    "image": "/assets/committee/Operations/Devik Gupta.jpg"
-                },
-                {
                     "name": "Navalpreet Kaur",
                     "image": "/assets/committee/Operations/Navalpreet Kaur.jpg"
+                },
+                {
+                    "name": "Devik Gupta",
+                    "image": "/assets/committee/Operations/Devik Gupta.jpg"
                 },
                 {
                     "name": "Kratika Bhardwaj",
