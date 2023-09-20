@@ -55,6 +55,10 @@
                     "image": "/assets/committee/Operations/Kratika Bhardwaj.jpg"
                 },
                 {
+                    "name": "Navalpreet Kaur",
+                    "image": "/assets/committee/Operations/Navalpreet Kaur.jpg"
+                },
+                {
                     "name": "Nishant Chaudhary",
                     "image": "/assets/committee/Operations/Nishant Chaudhary.jpg"
                 },
@@ -85,6 +89,10 @@
             },
             "members": [
                 {
+                    "name": "Navalpreet Kaur",
+                    "image": "/assets/committee/Cultural/Navalpreet Kaur.jpg"
+                },
+                {
                     "name": "Saumya Mishra",
                     "image": "/assets/committee/Cultural/Saumya Mishra.jpg"
                 },
@@ -111,10 +119,6 @@
                 {
                     "name": "Parikshit",
                     "image": "/assets/committee/Cultural/Parikshit.jpg"
-                },
-                {
-                    "name": "",
-                    "image": "/assets/committee/Cultural/.jpg"
                 },
                 {
                     "name": "Prateek Jain",
@@ -199,6 +203,10 @@
             },
             "members": [
                 {
+                    "name": "Saurabh Mehta",
+                    "image": "/assets/committee/Finance/Saurabh Mehta.jpg"
+                },
+                {
                     "name": "Ayush",
                     "image": "/assets/committee/Finance/Ayush.jpg"
                 },
@@ -207,8 +215,8 @@
                     "image": "/assets/committee/Finance/Bhavya Jain.jpg"
                 },
                 {
-                    "name": "Dilpreet kaur syali",
-                    "image": "/assets/committee/Finance/Dilpreet kaur syali.jpg"
+                    "name": "Dilpreet Kaur Syali",
+                    "image": "/assets/committee/Finance/Dilpreet Kaur Syali.jpg"
                 },
                 {
                     "name": "Khwaish",
@@ -227,12 +235,8 @@
                     "image": "/assets/committee/Finance/Pranav Joshi.jpg"
                 },
                 {
-                    "name": "Pranav Joshi",
-                    "image": "/assets/committee/Finance/Pranav Joshi.jpg"
-                },
-                {
                     "name": "Tvesa Gupta",
-                    "image": "/assets/committee/Finance/Tvesa Gupt.jpg"
+                    "image": "/assets/committee/Finance/Tvesa Gupta.jpg"
                 }
             ]
         },
@@ -244,6 +248,14 @@
                 "image": ""
             },
             "members": [
+                {
+                    "name": "Devik Gupta",
+                    "image": "/assets/committee/Momento/Devik Gupta.jpg"
+                },
+                {
+                    "name": "Kratika Bhardwaj",
+                    "image": "/assets/committee/Momento/Kratika Bhardwaj.jpg"
+                },
                 {
                     "name": "Suroju Akshay Kumar",
                     "image": "/assets/committee/Momento/Suroju Akshay Kumar.jpg"
