@@ -57,27 +57,34 @@ async function mainFunction(){
             // Adding Options to form for device selection
             let FormContainer = document.getElementById('cameraFormContainer')
             
-            let formHTML = '<form>'
-
+            let formHTML = '<form id="cameraForm">'
+            
             devices.forEach(device => {
                 console.log(device)
-                formHTML += `<input type="radio" id="${device.id}" name="${device.label}" value="${device.label}">${device.label}<br>`
+                formHTML += `<input type="radio" id="${device.id}" name="cameraIdOption" value="${device.id}">${device.label}<br>`
+            })
+            
+            formHTML += '<input type="submit" value="Select Camera Id"></form>'
+            FormContainer.innerHTML += formHTML
+            
+            document.getElementById('cameraForm').addEventListener('submit', async (e) => {
+                e.preventDefault()
+                const { cameraIdOption } = Object.fromEntries(new FormData(e.target).entries())
+                console.log(cameraIdOption)
+                if(cameraIdOption){
+                    cameraId = cameraIdOption
+                    document.getElementById('formModal').remove()
+                    await startScanner()
+                }
             })
 
-            formHTML += '</form>'
-
-
-
-            FormContainer.innerHTML += formHTML
-
-            cameraId = devices[0].id
         }
     })
     .catch(err => window.alert(err))
     
-    if(cameraId === undefined) return window.alert('Camera Permission Denied!')
+    // if(cameraId === undefined) return window.alert('Camera Permission Denied!')
     
-    await startScanner()
+    // await startScanner()
 }
                         
 let cameraId = undefined
