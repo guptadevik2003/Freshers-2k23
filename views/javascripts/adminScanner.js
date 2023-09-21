@@ -39,7 +39,10 @@ async function errorCallback(errorMessage){
 async function startScanner(){
     await html5QrCode.start(
         cameraId,
-        { fps: 10 },
+        {
+            fps: 10,
+            qrbox: { width: 1000, height: 1000 }
+        },
         successCallback,
         errorCallback
     )

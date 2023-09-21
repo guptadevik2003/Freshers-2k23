@@ -12,9 +12,17 @@
         <div id="cameraFormContainer">
         </div>
     </div>
+    <h1>SHUBHARAMBH</h1>
     <div id="reader"></div>
 
     <style>
+        @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+        *{
+            font-family: 'Poppins', sans-serif;
+            color: white;
+        }
+        
         body{
             background-color: black !important;
             background-image: linear-gradient(to right, black, rgb(80,0,0)) !important;
@@ -25,12 +33,16 @@
             flex-direction: column;
         }
 
+        h1{
+            font-size: 40px;
+        }
+
         .formModal{
             position: absolute;
             top: 0;
             left: 0;
-            background-color: azure;
-            /* background-image: linear-gradient(to right, black, rgb(80,0,0)) !important; */
+            background-color: black;
+            background-image: linear-gradient(to right, black, rgb(80,0,0)) !important;
             width: 100%;
             min-height: 90vh;
             z-index: 1000;
@@ -41,8 +53,9 @@
         }
 
         #reader{
-            min-width: 90vw;
-            min-height: 90vw;
+            width: 90vw;
+            overflow: hidden;
+            height: 90vw;
             border: 5px solid red !important;
         }
     </style>
