@@ -10,7 +10,7 @@ const StudentSchema = require('../schemas/Student')
 
 // /admin/area
 router.get('/area', userAuth.isLoggedIn, async (req, res) => {
-    res.render('adminArea.ejs')
+    res.render('adminArea.ejs', { user: req.session.user })
 })
 
 // /admin/scanner
@@ -47,10 +47,11 @@ router.post('/scanner/post', userAuth.isLoggedIn, async (req, res) => {
 // /admin/view-scanners
 router.get('/view-scanners', userAuth.isLoggedIn, async (req, res) => {
     let UserData = await AdminSchema.find({ })
-    let text = '<h2>Registered Scanners</h2>'
+    let text = '<body style="background-color: black !important; background-image: linear-gradient(to right, black, rgb(80,0,0)); padding: 60px 40px;"><h1 style="font-size: 69px; display: flex; flex-direction: column; align-items: center; text-align: center;">REGISTERED SCANNERS</h1>'
     UserData.forEach(user => {
-        text += `<h4>${user.fullName} - ${user.emailId}</h4>`
+        text += `<h2 style="font-size: 40px; text-align: center; padding-bottom: 20px;">${user.fullName}<br>${user.emailId}</h2>`
     })
+    text += `<style>@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap'); *{ font-family: 'Poppins', sans-serif; color: white; }</style></body>`
     res.send(text)
 })
 

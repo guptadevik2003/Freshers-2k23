@@ -7,14 +7,15 @@
     
     <title>Login - Freshers 2k23</title>
 
-    <!-- Local Files -->
-    <!-- <link rel="stylesheet" href="/styles/account-login.css" type="text/css"> -->
+    <!-- Font Awesome CDN -->
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"/>
+
 </head>
 <body>
 
     <div class="container">
         <div class="form">
-            <span class="title">Login</span>
+            <h2 class="title">LOGIN</h2>
 
             <div class="notify-container" id="notify-container">
                 <p class="notify-text" id="notify-text"></p>
@@ -24,22 +25,108 @@
 
                 <!-- email field -->
                 <div class="input-field">
-                    <input type="email" name="email" id="email" placeholder="Enter your email *" required>
+                    <input type="email" name="email" id="email" placeholder="EMAIL" required>
+                    <i class="fad fa-at" style="--fa-primary-color: red;"></i>
                 </div>
 
                 <!-- password field -->
                 <div class="input-field">
-                    <input class="password" minlength="8" maxlength="100" type="password" name="password" id="password" placeholder="Enter password *" required>
+                    <input class="password" minlength="8" maxlength="100" type="password" name="password" id="password" placeholder="PASSWORD" required>
+                    <i class="fad fa-key" style="--fa-primary-color: red;"></i>
                 </div>
 
                 <!-- submit button -->
-                <div class="input-field button">
+                <div class="input-field button submitBtn">
                     <input type="submit" value="Login Now">
                 </div>
 
             </form>
         </div>
     </div>
+
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+        *{
+            font-family: 'Poppins', sans-serif;
+            color: white;
+        }
+
+        body{
+            background-color: black !important;
+            background-image: linear-gradient(to right, black, rgb(80,0,0)) !important;
+            min-height: 80vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+            text-align: center;
+        }
+
+        .title{
+            font-size: 30px;
+            font-weight: 600;
+        }
+
+        .the-form{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+        }
+
+        .input-field{
+            position: relative;
+            height: 50px;
+            width: 92vw;
+            margin-bottom: 30px;
+        }
+
+        .input-field input{
+            height: 100%;
+            width: 80%;
+            padding: 0px 35px;
+            border: none;
+            outline: none;
+            font-size: 16px;
+            border-bottom: 2px solid #666666;
+            border-top: 2px solid transparent;
+            transition: all 0.2s ease;
+            background-color: transparent;
+            color: white !important;
+        }
+
+        .input-field i{
+            position: absolute;
+            top: 50%;
+            left: 0;
+            transform: translateY(-50%);
+            font-size: 23px;
+        }
+
+        .submitBtn{
+            margin-top: 35px;
+            margin-bottom: 0px;
+        }
+
+        .submitBtn input{
+            border: 2px solid transparent;
+            color: black !important;
+            font-size: 17px;
+            font-weight: 500;
+            letter-spacing: 1px;
+            background-color: red !important;
+            cursor: pointer;
+            transition: all 0.3s ease;
+            padding: 10px 35px;
+        }
+
+        .submitBtn input:hover{
+            border: 2px solid red;
+            color: red !important;
+            background-color: transparent !important;
+        }
+    </style>
 
     <!-- Scripts (Always at End of Body) -->
     <script>
