@@ -447,6 +447,10 @@
                     "image": "/assets/committee/Discipline/Ananya Gupta.jpg"
                 },
                 {
+                    "name": "Naman Goel",
+                    "image": "/assets/committee/Discipline/Naman Goel.jpg"
+                },
+                {
                     "name": "B Sai Manvith",
                     "image": "/assets/committee/Discipline/B Sai Manvith.jpg"
                 },
@@ -487,16 +491,16 @@
                     "image": "/assets/committee/Discipline/Parth Agwal.jpg"
                 },
                 {
-                    "name": "Naman Goel",
-                    "image": "/assets/committee/Discipline/Naman Goel.jpg"
-                },
-                {
                     "name": "Mayank Baluni",
                     "image": "/assets/committee/Discipline/Mayank Baluni.jpg"
                 },
                 {
                     "name": "Kumar Garv",
                     "image": "/assets/committee/Discipline/Kumar Garv.jpg"
+                },
+                {
+                    "name": "Rudraksh Agarwal",
+                    "image": "/assets/committee/Discipline/Rudraksh Agarwal.jpg"
                 }
             ]
         },
@@ -508,6 +512,10 @@
                 "image": ""
             },
             "members": [
+                {
+                    "name": "Ansh Mourya",
+                    "image": "/assets/committee/Refreshment/Ansh Mourya.jpg"
+                },
                 {
                     "name": "Ayush Katariya",
                     "image": "/assets/committee/Refreshment/Ayush Katariya.jpg"
@@ -569,10 +577,6 @@
                     "image": "/assets/committee/Refreshment/Aakriti Solanki.jpg"
                 },
                 {
-                    "name": "Abhinav Bhatia",
-                    "image": "/assets/committee/Refreshment/Abhinav Bhatia.jpg"
-                },
-                {
                     "name": "Aditi Agarwal",
                     "image": "/assets/committee/Refreshment/Aditi Agarwal.jpg"
                 },
@@ -591,6 +595,10 @@
                 {
                     "name": "Atishay Jain",
                     "image": "/assets/committee/Refreshment/Atishay Jain.jpg"
+                },
+                {
+                    "name": "Abhinav Bhatia",
+                    "image": "/assets/committee/Refreshment/Abhinav Bhatia.jpg"
                 }
             ]
         }
