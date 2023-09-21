@@ -10,26 +10,35 @@ async function successCallback(decodedText, decodedResult){
     .then(res => res.json())
     .then(data => {
         console.log(data)
+
+        let successModal = document.getElementById('successModal')
+        let successMessage = document.getElementById('successMessage')
+
+        successModal.style['z-index'] = 1000
+        
         if(data.success){
 
-            window.alert(`${data.data.fullName} Registered!`)
+            successMessage.innerHTML = (`${data.data.fullName} Registered!`)
 
         } else {
 
             if(data.message === 'wrong_url_entered'){
-                window.alert('Wrong QR Scanned!')
+                successMessage.innerHTML = ('Wrong QR Scanned!')
             }
             if(data.message === 'student_not_found'){
-                window.alert('Student Not Found!')
+                successMessage.innerHTML = ('Student Not Found!')
             }
             if(data.message === 'already_registered'){
-                window.alert(`User Already Registered!`)
+                successMessage.innerHTML = (`User Already Registered!`)
             }
 
         }
     })
 
-    await startScanner()
+    document.getElementById('successButton').addEventListener('click', async (e) => {
+        document.getElementById('successModal').style['z-index'] = -1000
+        await startScanner()
+    })
 }
 
 async function errorCallback(errorMessage){
@@ -60,14 +69,14 @@ async function mainFunction(){
             // Adding Options to form for device selection
             let FormContainer = document.getElementById('cameraFormContainer')
             
-            let formHTML = '<form id="cameraForm">'
+            let formHTML = '<h1 class="formTitle">SELECT BACK CAMERA</h1><form id="cameraForm">'
             
             devices.forEach(device => {
                 console.log(device)
-                formHTML += `<input type="radio" id="${device.id}" name="cameraIdOption" value="${device.id}">${device.label}<br>`
+                formHTML += `<label class="inputLabel"><input type="radio" id="${device.id}" name="cameraIdOption" value="${device.id}">${device.label}<br><span id="inputSpan"></span></label>`
             })
             
-            formHTML += '<input type="submit" value="Select Camera Id"></form>'
+            formHTML += '<input type="submit" class="submitBtn" value="CONFIRM"></form>'
             FormContainer.innerHTML += formHTML
             
             document.getElementById('cameraForm').addEventListener('submit', async (e) => {

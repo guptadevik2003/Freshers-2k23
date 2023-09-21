@@ -12,6 +12,10 @@
         <div id="cameraFormContainer">
         </div>
     </div>
+    <div id="successModal" class="successModal">
+        <h1 id="successMessage" class="successMessage"></h1>
+        <button id="successButton" class="successButton">CONFIRM</button>
+    </div>
     <h1>SHUBHARAMBH</h1>
     <div id="reader"></div>
 
@@ -49,7 +53,74 @@
             display: flex;
             justify-content: center;
             align-items: center;
+            text-align: center;
             flex-direction: column;
+        }
+
+        .successModal{
+            position: absolute;
+            top: 0;
+            left: 0;
+            background-color: black;
+            background-image: linear-gradient(to right, black, rgb(80,0,0)) !important;
+            width: 100%;
+            min-height: 90vh;
+            z-index: -1000;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+            flex-direction: column;
+        }
+
+        #cameraForm .inputSpan{
+            height: 20px !important;
+        }
+
+        .formTitle{
+            font-size: 26px;
+            font-weight: 600;
+        }
+
+        .submitBtn{
+            margin-top: 30px;
+            border: 2px solid transparent;
+            color: white !important;
+            font-size: 17px;
+            font-weight: 500;
+            letter-spacing: 1px;
+            background-color: red !important;
+            cursor: pointer;
+            transition: all 0.3s ease;
+            padding: 10px 15px;
+            width: 100%;
+            text-decoration: none;
+        }
+        
+        .successButton{
+            margin-top: 30px;
+            border: 2px solid transparent;
+            color: white !important;
+            font-size: 17px;
+            font-weight: 500;
+            letter-spacing: 1px;
+            background-color: red !important;
+            cursor: pointer;
+            transition: all 0.3s ease;
+            padding: 10px 15px;
+            width: 50%;
+            text-decoration: none;
+        }
+
+        .submitBtn:hover{
+            border: 2px solid red;
+            color: red !important;
+            background-color: transparent !important;
+        }
+
+        .successModal .successMessage{
+            font-size: 30px;
+            font-weight: 600;
         }
 
         #reader{
