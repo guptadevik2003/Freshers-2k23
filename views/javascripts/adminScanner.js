@@ -1,22 +1,3 @@
-// async function onScanSuccess(decodedText){
-//     await fetch('/admin/scanner/post', {
-//         method: 'POST',
-//         headers: { 'Content-Type': 'application/json' },
-//         body: JSON.stringify({
-//             Base64String: decodedText
-//         })
-//     })
-//     .then(res => res.json())
-//     .then(data => {
-//         console.log(data)
-//         window.alert(data)
-//         html5QrcodeScanner.stop()
-//     })
-// }
-
-// async function onScanFailure(error){
-//     console.log(error);
-// }
 async function successCallback(decodedText, decodedResult){
     await stopScanner()
     await fetch('/admin/scanner/post', {
@@ -48,7 +29,7 @@ async function successCallback(decodedText, decodedResult){
         }
     })
 
-    // await startScanner()
+    await startScanner()
 }
 
 async function errorCallback(errorMessage){
@@ -72,6 +53,23 @@ async function mainFunction(){
     await Html5Qrcode.getCameras().then(devices => {
         console.log(devices)
         if(devices && devices.length){
+
+            // Adding Options to form for device selection
+            let FormContainer = document.getElementById('cameraFormContainer')
+            
+            let formHTML = '<form>'
+
+            devices.forEach(device => {
+                console.log(device)
+                formHTML += `<input type="radio" id="${device.id}" name="${device.label}" value="${device.label}">${device.label}<br>`
+            })
+
+            formHTML += '</form>'
+
+
+
+            FormContainer.innerHTML += formHTML
+
             cameraId = devices[0].id
         }
     })
@@ -82,12 +80,10 @@ async function mainFunction(){
     await startScanner()
 }
                         
-// let cameraId = undefined
-// const html5QrCode = new Html5Qrcode('reader')
+let cameraId = undefined
+const html5QrCode = new Html5Qrcode('reader')
 
-// mainFunction()
-
-
+mainFunction()
 
 
 
@@ -96,16 +92,18 @@ async function mainFunction(){
 
 
 
-function onScanSuccess(decodedText, decodedResult) {
-    // handle the scanned code as you like, for example:
-    console.log(`Code matched = ${decodedText}`, decodedResult);
-}
 
 
-let html5QrcodeScanner = new Html5QrcodeScanner(
-    "reader",
-    { fps: 10 },
-    false
-)
+// function onScanSuccess(decodedText, decodedResult) {
+//     // handle the scanned code as you like, for example:
+//     console.log(`Code matched = ${decodedText}`, decodedResult);
+// }
 
-html5QrcodeScanner.render(successCallback, errorCallback);
+
+// let html5QrcodeScanner = new Html5QrcodeScanner(
+//     "reader",
+//     { fps: 10 },
+//     false
+// )
+
+// html5QrcodeScanner.render(successCallback, errorCallback);

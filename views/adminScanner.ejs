@@ -8,13 +8,32 @@
 <body>
     <script src="https://unpkg.com/html5-qrcode" type="text/javascript" defer></script>
     <script src="/javascripts/adminScanner.js" type="text/javascript" defer></script>
+    <div class="formModal">
+        <div id="cameraFormContainer">
+        </div>
+    </div>
     <div id="reader"></div>
 
     <style>
         body{
-            /* background-color: black !important;
-            background-image: linear-gradient(to right, black, rgba(255,0,0,0.3)); */
+            background-color: black !important;
+            background-image: linear-gradient(to right, black, rgb(80,0,0)) !important;
             min-height: 80vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+        }
+
+        .formModal{
+            position: absolute;
+            top: 0;
+            left: 0;
+            background-color: azure;
+            /* background-image: linear-gradient(to right, black, rgb(80,0,0)) !important; */
+            width: 100%;
+            min-height: 90vh;
+            z-index: 1000;
             display: flex;
             justify-content: center;
             align-items: center;
