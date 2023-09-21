@@ -48,7 +48,7 @@ async function successCallback(decodedText, decodedResult){
         }
     })
 
-    await startScanner()
+    // await startScanner()
 }
 
 async function errorCallback(errorMessage){
@@ -70,6 +70,7 @@ async function stopScanner(){
 
 async function mainFunction(){
     await Html5Qrcode.getCameras().then(devices => {
+        console.log(devices)
         if(devices && devices.length){
             cameraId = devices[0].id
         }
@@ -81,7 +82,30 @@ async function mainFunction(){
     await startScanner()
 }
                         
-let cameraId = undefined
-const html5QrCode = new Html5Qrcode('reader')
+// let cameraId = undefined
+// const html5QrCode = new Html5Qrcode('reader')
 
-mainFunction()
+// mainFunction()
+
+
+
+
+
+
+
+
+
+
+function onScanSuccess(decodedText, decodedResult) {
+    // handle the scanned code as you like, for example:
+    console.log(`Code matched = ${decodedText}`, decodedResult);
+}
+
+
+let html5QrcodeScanner = new Html5QrcodeScanner(
+    "reader",
+    { fps: 10 },
+    false
+)
+
+html5QrcodeScanner.render(successCallback, errorCallback);
