@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>QR Scanner - Fresher 2k23</title>
+</head>
+<body>
+    <script src="https://unpkg.com/html5-qrcode" type="text/javascript" defer></script>
+    <script src="/javascripts/adminScanner.js" type="text/javascript" defer></script>
+    <div id="reader"></div>
+
+    <style>
+        body{
+            /* background-color: black !important;
+            background-image: linear-gradient(to right, black, rgba(255,0,0,0.3)); */
+            min-height: 80vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+        }
+
+        #reader{
+            min-width: 90vw;
+            min-height: 90vw;
+            border: 5px solid red !important;
+        }
+    </style>
+</body>
+</html>

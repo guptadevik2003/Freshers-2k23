@@ -32,16 +32,6 @@ router.get('/committee', async (req, res) => {
     res.render('committee.ejs', { data: CommitteeData })
 })
 
-// /scanner
-router.get('/scanner', async (req, res) => {
-    res.render('scanner.ejs')
-})
-
-// /qr
-router.get('/qr', async (req, res) => {
-    res.render('qr.ejs')
-})
-
 // /qr/:BASE64
 router.get('/qr/:BASE64', async (req, res) => {
     let BASE64 = req.params.BASE64

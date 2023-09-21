@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <title>Register - Freshers 2k23</title>
+
+    <!-- Local Files -->
+    <!-- <link rel="stylesheet" href="/styles/account-login.css" type="text/css"> -->
+</head>
+<body>
+
+    <div class="container">
+        <div class="form">
+            <span class="title">Register Scanner</span>
+
+            <div class="notify-container" id="notify-container">
+                <p class="notify-text" id="notify-text"></p>
+            </div>
+
+            <form class="the-form" id="the-form">
+
+                <!-- fullname field -->
+                <div class="input-field">
+                    <input maxlength="300" type="text" name="fullname" id="fullname" placeholder="Enter your name *" required>
+                </div>
+
+                <!-- email field -->
+                <div class="input-field">
+                    <input type="email" name="email" id="email" placeholder="Enter your email *" required>
+                </div>
+
+                <!-- password field -->
+                <div class="input-field">
+                    <input class="password" minlength="8" maxlength="100" type="password" name="password" id="password" placeholder="Enter password *" required>
+                </div>
+
+                <!-- confirmPassword field -->
+                <div class="input-field">
+                    <input class="confirmPassword" minlength="8" maxlength="100" type="password" name="confirmPassword" id="confirmPassword" placeholder="Confirm password *" required>
+                </div>
+
+                <!-- submit button -->
+                <div class="input-field button">
+                    <input type="submit" value="Register Now">
+                </div>
+
+            </form>
+        </div>
+    </div>
+
+    <!-- Scripts (Always at End of Body) -->
+    <script>
+        document.getElementById('the-form').addEventListener('submit', async (e) => {
+    e.preventDefault()
+    const { fullname, email, password, confirmPassword, phone, tosAccepted } = Object.fromEntries(new FormData(e.target).entries())
+    
+    if (password != confirmPassword) return window.alert("Passwords Didn't Match")
+
+    const fetchData = await fetch('/admin/register/post', {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify({
+            fullname: fullname,
+            email: email,
+            password: password,
+        })
+    })
+    .then(res => res.json())
+    .then(data => { return data })
+
+    console.log(fetchData)
+
+    if (fetchData.success) return window.alert(`${fullname} Registered`)
+
+
+
+    if (fetchData.error === 'no_fullname') {
+        window.alert("No Name Entered")
+    }
+    if (fetchData.error === 'no_email') {
+        window.alert("No Email Entered")
+    }
+    if (fetchData.error === 'no_password') {
+        window.alert("No Password Entered")
+    }
+    if (fetchData.error === 'user_already_exists') {
+        window.alert("User already exists with this Email")
+    }
+    if (fetchData.error === 'mongodb_error') {
+        window.alert("An error occurred, try again later")
+    }
+
+})
+    </script>
+    
+</body>
+</html>

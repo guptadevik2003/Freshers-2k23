@@ -113,7 +113,7 @@
 
         if(StudentJSON){
             name.textContent = StudentJSON.fullName
-            studentId.textContent = StudentJSON.studentId
+            // studentId.textContent = StudentJSON.studentId
             image.src = `https://api.qrserver.com/v1/create-qr-code/?size=220x220&data=${Base64String}`
             document.title = `${StudentJSON.fullName} - Freshers 2k23`
         } else {

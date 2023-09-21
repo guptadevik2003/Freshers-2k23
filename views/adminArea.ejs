@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Admin Area - Freshers 2k23</title>
+</head>
+<body style="display: flex; flex-direction: column; min-height: 80vh; justify-content: space-evenly; align-items: center;">
+
+    <a href="/admin/register">Register Scanner (Devik Only)</a>
+
+    <a href="/admin/view-scanners">View Scanners</a>
+
+    <a href="/admin/scanner">Open Scanner</a>
+
+    <a href="" onclick="fetch('/admin/logout', { method: 'POST' }).then(res => res.json()).then(data => { if(data.success) window.open('/admin/login', '_self') })">Logout</a>
+    
+</body>
+</html>
