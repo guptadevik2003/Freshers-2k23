@@ -26,7 +26,7 @@
             </div>
         </div>
         <h3 id="name" class="name"></h3>
-        <h4 id="studentId" class="studentId"></h4>
+        <h4 onclick="window.open('https://shubharambh.net', '_self')" id="studentId" class="studentId"></h4>
     </div>
 
     <style>
@@ -113,7 +113,8 @@
 
         if(StudentJSON){
             name.textContent = StudentJSON.fullName
-            // studentId.textContent = StudentJSON.studentId
+            studentId.textContent = `CLICK TO EXPLORE WEBSITE`
+            studentId.style['border-bottom'] = '3px solid white'
             image.src = `https://api.qrserver.com/v1/create-qr-code/?size=220x220&data=${Base64String}`
             document.title = `${StudentJSON.fullName} - Freshers 2k23`
         } else {
