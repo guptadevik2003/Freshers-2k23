@@ -14,6 +14,10 @@ const StudentSchema = new Schema({
     emailId: {
         type: String,
     },
+    emailQRSent: {
+        type: Boolean,
+        default: false,
+    },
     entryRegistered: {
         type: Boolean,
         default: false,
