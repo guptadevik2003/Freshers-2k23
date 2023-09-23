@@ -4,7 +4,7 @@
   "description": "B.Tech Freshers 2023",
   "main": "index.js",
   "scripts": {
-    "start": "npm install; node index.js"
+    "start": "node index.js"
   },
   "repository": {
     "type": "git",
