@@ -1,5 +1,5 @@
 module.exports = ({ app, express }) => {
-    express.tempUpload = async () => {
+    express.studentMailer = async () => {
 
         let NodeMailer = require('../otherFunctions/NodeMailer')
         let StudentSchema = require('../schemas/Student')
