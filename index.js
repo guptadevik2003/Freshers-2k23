@@ -13,6 +13,9 @@ express.appConfig()
 express.useRoutes()
 express.mongooseLogin()
 
+// Function for Generating QR Link and sending Emails
+// express.studentMailer()
+
 // Listening to PORT
 const PORT = process.env.PORT
 app.listen(PORT, async () => {
